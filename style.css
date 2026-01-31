@@ -93,10 +93,11 @@ h1 {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 100px;
+
 }
 
 .button1 {
-    width: 100px;
     padding: 8px;
     border: none;
     border-radius: 5px;
@@ -141,4 +142,96 @@ button {
 img {
     margin: auto;
     flex: 1;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.actualquote {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.daquote {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 20% 0 0;
+    margin: 0;
+}
+
+.whoquoted {
+    font-weight: 900;
+    text-align: right;
+    padding-bottom: 20%;
+    margin: 10px 0 0 0;
+}
+
+.cta {
+    display: flex;
+    /* width: 80%; */
+    /* height: 150px; */
+    /* margin: 100px auto; */
+    /* box-sizing: border-box; */
+    padding: 20px;
+}
+
+.ctabox {
+    background-color: #3882F6;
+    display: flex;
+    margin: 50px auto;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.ctaflex {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 25px 50px;
+
+}
+
+.ctatitle {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.ctasub {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.ctabutton {
+    margin: auto 50px;
+    /* height: 50px; */
+}
+
+/* .ctabutt {
+    padding: 0 50px;
+} */
+
+button.ctabutt {
+    width: 100px;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    background: #1F2937;
+}
+
+.footertxt {
+    margin: 25px auto;
+    color: #F9FAF8;
 }
